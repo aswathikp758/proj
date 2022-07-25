@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E231" />
+          <option value="E302" />
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.views.*" />
+          <option value="employee_register.models.Employee.objects" />
+          <option value="MEDIA" />
+          <option value="work_register.views.forms" />
+          <option value="work_register.views.Worker" />
+          <option value="work_register.views.request" />
+          <option value="work_project.urls.include" />
+          <option value="work_project.urls.work_register" />
+          <option value="work_register.models.Worker.objects" />
+          <option value="employee_project.employee_register.models.Employee.objects" />
+          <option value="imagefield.models.image.__truediv__" />
+          <option value="imagefield.models.*" />
+          <option value="login_app.models.new_user.objects" />
+          <option value="item.models.Employee.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
